@@ -3,15 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/bossmenu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/drawable/round_corner.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/drawable/stroke.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/bossmenu.xml" value="0.25" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/client.xml" value="0.33" />
         <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/clientmenu.xml" value="0.25" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/clientmenu_list_item.xml" value="0.25" />
         <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/homepage.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/menuofday.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/menuorder.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/menuofday_list_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/menuorder.xml" value="0.33" />
         <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/menusearch.xml" value="0.33" />
-        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/pay.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/register.xml" value="0.33" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/my_order.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/order.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/order_list_item.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/pay.xml" value="0.22" />
+        <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/register.xml" value="0.25" />
         <entry key="..\:/Users/a3643/AndroidStudioProjects/project/app/src/main/res/layout/search.xml" value="0.5" />
       </map>
     </option>

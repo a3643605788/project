@@ -11,13 +11,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_client"
         android:layout_width="match_parent"
-        android:layout_height="500dp"/>
+        android:layout_height="500dp" />
 
     <Button
-        android:id="@+id/listbt"
+        android:id="@+id/returnbt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="查看購物車"
+        android:text="返回"
         android:textSize="20sp"
         android:textColor="@color/darkblue"
         android:background="@drawable/stroke"

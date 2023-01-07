@@ -24,6 +24,8 @@
 
 
         <activity android:label="register" android:name=".register"/>
+        <activity android:label="client" android:name=".client"/>
+        <activity android:label="My_Order" android:name=".My_Order"/>
         <activity android:label="clientmenu" android:name=".clientmenu"/>
         <activity android:label="pay" android:name=".pay"/>
 

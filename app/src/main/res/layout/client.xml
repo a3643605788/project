@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".bossmenu">
+    tools:context=".client">
 
     <Button
         android:id="@+id/returnbt"
@@ -21,41 +21,30 @@
         android:gravity="center_vertical">
 
         <Button
-            android:id="@+id/menusearchbt"
+            android:id="@+id/My_Orderbt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="批發菜價搜尋"
+            android:text="我的訂單"
             android:textSize="20sp"
             android:textColor="@color/darkblue"
             android:background="@drawable/stroke"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp"/>
-
         <Button
-            android:id="@+id/menuofdaybt"
+            android:id="@+id/clientmenubt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="今日菜單"
+            android:text="菜單"
             android:textSize="20sp"
             android:textColor="@color/darkblue"
             android:background="@drawable/stroke"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/menuorderbt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="訂單處理"
-            android:textSize="20sp"
-            android:textColor="@color/darkblue"
-            android:background="@drawable/stroke"
-            android:layout_marginLeft="70dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginRight="70dp"/>
 
     </LinearLayout>
+
+
 
 
 

@@ -1,94 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/clientbt"
-        android:layout_width="258dp"
-        android:layout_height="51dp"
-        android:text="訪客登入"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
-
-    <EditText
-        android:id="@+id/login_account"
+    <TextView
+        android:id="@+id/hinttv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="請輸入帳號"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/red_GINSYU"
+        android:layout_marginTop="60dp"/>
 
-    <TextView
-        android:id="@+id/account"
-        android:layout_width="107dp"
-        android:layout_height="47dp"
-        android:text="帳號:"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191" />
 
-    <TextView
-        android:id="@+id/password"
-        android:layout_width="107dp"
-        android:layout_height="47dp"
-        android:text="密碼:"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.334" />
-
-    <EditText
-        android:id="@+id/login_password"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="請輸入密碼"
-        android:inputType="textPassword"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332" />
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
 
-    <Button
-        android:id="@+id/registerbt"
-        android:layout_width="258dp"
-        android:layout_height="51dp"
-        android:text="店家註冊"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="107dp"
+            android:layout_height="47dp"
+            android:text="帳號:"
+            android:textSize="40dp"
+            android:textColor="@color/darkblue" />
+
+        <EditText
+            android:id="@+id/login_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="請輸入帳號"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="107dp"
+            android:layout_height="47dp"
+            android:text="密碼:"
+            android:textSize="40dp"
+            android:textColor="@color/darkblue"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="請輸入密碼"
+            android:inputType="textPassword"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/home_loginbt"
@@ -96,11 +77,36 @@
         android:layout_height="51dp"
         android:text="登入"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
+        android:textColor="@color/darkblue"
+        android:background="@drawable/stroke"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="60dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/registerbt"
+        android:layout_width="258dp"
+        android:layout_height="51dp"
+        android:text="店家註冊"
+        android:textSize="20sp"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/stroke"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/clientbt"
+        android:layout_width="258dp"
+        android:layout_height="51dp"
+        android:text="訪客登入"
+        android:textSize="20sp"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/stroke"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

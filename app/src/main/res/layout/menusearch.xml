@@ -1,64 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".menusearch">
 
-    <Button
-        android:id="@+id/searchbt"
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
-        android:text="搜尋"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/account2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索品項:"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/searchedittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="品名"
+            android:inputType="textPersonName"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/searchview"
-        android:layout_width="389dp"
-        android:layout_height="337dp"
-        android:layout_marginStart="16dp"
-
-        android:layout_marginTop="164dp"
-        android:width="250px"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
         android:fadeScrollbars="false"
-
         android:scrollbars="vertical"
         android:text="品名:  市場名稱:  高價:  中價:  低價:  平均價:"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"/>
 
-    <EditText
-        android:id="@+id/searchedittext"
-        android:layout_width="164dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="品名"
-        android:inputType="textPersonName"
-        android:textSize="18dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.728"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+    <Button
+        android:id="@+id/searchbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜尋"
+        android:textSize="20sp"
+        android:textColor="@color/darkblue"
+        android:background="@drawable/stroke"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/account2"
-        android:layout_width="88dp"
-        android:layout_height="37dp"
-        android:text="搜索品項:"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.284"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</LinearLayout>
